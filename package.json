@@ -14,12 +14,14 @@
 	},
 	"scripts": {
 		"test": "xo && ava",
-		"build": "babel ./index.js --out-file index.es5.js"
+		"build": "babel ./index.js --out-file index.es5.js",
+		"prepare": "npm run build"
 	},
 	"files": [
 		"index.js",
 		"index.es5.js"
 	],
+	"main": "index.es5.js",
 	"keywords": [
 		"browser",
 		"querystring",
