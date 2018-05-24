@@ -13,10 +13,12 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"build": "babel ./index.js --out-file index.es5.js"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.es5.js"
 	],
 	"keywords": [
 		"browser",
@@ -34,6 +36,7 @@
 		"searchparams"
 	],
 	"dependencies": {
+		"babel-cli": "^6.26.0",
 		"decode-uri-component": "^0.2.0",
 		"strict-uri-encode": "^2.0.0"
 	},
