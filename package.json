@@ -1,7 +1,7 @@
 {
-	"name": "query-string",
+	"name": "query-string-es5",
 	"version": "6.1.0",
-	"description": "Parse and stringify URL query strings",
+	"description": "Parse and stringify URL query strings (ES5, babelified version)",
 	"license": "MIT",
 	"repository": "sindresorhus/query-string",
 	"author": {

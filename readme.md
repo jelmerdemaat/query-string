@@ -1,6 +1,7 @@
-# query-string [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://travis-ci.org/sindresorhus/query-string)
+# query-string-es5 [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://travis-ci.org/sindresorhus/query-string)
 
 > Parse and stringify URL [query strings](https://en.wikipedia.org/wiki/Query_string)
+> (ES5, babelified version)
 
 ---
 
